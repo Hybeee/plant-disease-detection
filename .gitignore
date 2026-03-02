@@ -208,3 +208,5 @@ __marimo__/
 
 # Project
 dataset
+model_weights
+runs
