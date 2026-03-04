@@ -75,14 +75,16 @@ def draw_info_on_image(image, classes, bboxes, class_names):
     return image
 
 def main():
-    with open(os.path.join("dataset", "data.yaml")) as f:
+    dataset_name = "binary_dataset"
+
+    with open(os.path.join(dataset_name, "data.yaml")) as f:
         info = yaml.safe_load(f)
     
     class_names = info["names"]
 
-    train_dir_path = os.path.join("dataset", "train")
-    valid_dir_path = os.path.join("dataset", "valid")
-    test_dir_path = os.path.join("dataset", "test")
+    train_dir_path = os.path.join(dataset_name, "train")
+    valid_dir_path = os.path.join(dataset_name, "valid")
+    test_dir_path = os.path.join(dataset_name, "test")
 
     train_image_names, train_label_names = return_folder_content(root=train_dir_path)
     valid_image_names, valid_label_names = return_folder_content(root=valid_dir_path)

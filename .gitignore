@@ -208,5 +208,6 @@ __marimo__/
 
 # Project
 dataset
+binary_dataset
 model_weights
 runs
