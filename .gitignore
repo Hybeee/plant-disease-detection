@@ -207,6 +207,6 @@ marimo/_lsp/
 __marimo__/
 
 # Project
-dataset
+*dataset*
 model_weights
 runs
