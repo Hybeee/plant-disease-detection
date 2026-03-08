@@ -1,6 +1,7 @@
 import streamlit as st
 from ultralytics import YOLO
 import PIL.Image
+import cv2
 
 st.title("Plant Disease Detection")
 
@@ -17,6 +18,8 @@ if uploaded_file is not None:
     st.image(image, caption='Uploaded picture', use_column_width=True)
     
     results = model(image)
-    
+
     res_plotted = results[0].plot()
-    st.image(res_plotted, caption='Detected Leaves', use_column_width=True)
+    res_plotted_rgb = cv2.cvtColor(res_plotted, cv2.COLOR_BGR2RGB)
+    
+    st.image(res_plotted_rgb, caption='Detected Leaves', use_column_width=True)
