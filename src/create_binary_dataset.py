@@ -24,13 +24,20 @@ def _create_new_split_dir(orig_root: str, new_root: str, split: str,
     for orig_image_file_name, orig_label_file_name in zip(sorted(os.listdir(orig_images_dir)), sorted(os.listdir(orig_old_labels_dir))):
         orig_image_path = os.path.join(orig_images_dir, orig_image_file_name)
         new_image_path = os.path.join(new_images_dir, orig_image_file_name)
-        shutil.copy2(orig_image_path, new_image_path)
 
         orig_label_path = os.path.join(orig_old_labels_dir, orig_label_file_name)
         new_label_path = os.path.join(new_labels_dir, orig_label_file_name)
 
-        with open(orig_label_path, 'r') as orig_f, open(new_label_path, 'w') as new_f:
-            for line in orig_f:
+        with open(orig_label_path, 'r') as orig_f:
+            lines = orig_f.readlines()
+        
+        if len(lines) > 2:
+            continue
+
+        shutil.copy2(orig_image_path, new_image_path)
+
+        with open(new_label_path, 'w') as new_f:
+            for line in lines:
                 parts = line.strip().split()
 
                 orig_class_id = int(parts[0])
@@ -78,7 +85,7 @@ def main():
     with open(os.path.join(orig_dataset_dir, "data.yaml")) as f:
         orig_data_info = yaml.safe_load(f)
     
-    new_dataset_dir = "binary_dataset"
+    new_dataset_dir = "binary_dataset_lite"
     os.makedirs(new_dataset_dir, exist_ok=True)
 
     splits = ["train", "valid", "test"]
