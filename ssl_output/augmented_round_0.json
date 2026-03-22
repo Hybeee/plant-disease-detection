@@ -1,0 +1,187 @@
+{
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/0052_jpg.rf.5af2a4563ff68ca973bcc7cb835d31ca.jpg": [
+    "10 0.226060 0.970642 0.088261 0.058715",
+    "10 0.569302 0.962626 0.073827 0.073536",
+    "10 0.962766 0.967222 0.073368 0.065556"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/072_jpg.rf.c39631d58f3a10e965af2f0191c122b9.jpg": [
+    "24 0.239823 0.074376 0.405179 0.147111",
+    "24 0.079340 0.749603 0.157538 0.311142",
+    "24 0.531926 0.881276 0.223638 0.236561"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/0g_jpg.rf.bb81188c4272c2d8ee6c4b3233059b5f.jpg": [
+    "27 0.052744 0.805470 0.105488 0.306735"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/1688_jpg.rf.1dbba84c6698fa8434edc1951ea59ae8.jpg": [
+    "20 0.693898 0.041747 0.068795 0.082048"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/28619919393_7ef44acccc_b_jpg.rf.bef7b2c14181641ed186d7da72932741.jpg": [
+    "24 0.447458 0.251947 0.079692 0.042628",
+    "24 0.805813 0.308792 0.055749 0.055196",
+    "24 0.591259 0.200339 0.054588 0.041289",
+    "24 0.894527 0.705401 0.071671 0.051765",
+    "24 0.294194 0.312754 0.076273 0.062471",
+    "24 0.703225 0.278509 0.066855 0.038252",
+    "24 0.667107 0.086399 0.093866 0.026788",
+    "24 0.958393 0.016164 0.074513 0.032328",
+    "24 0.964995 0.546690 0.070010 0.036371",
+    "24 0.735184 0.282933 0.072332 0.030559",
+    "24 0.662462 0.092129 0.098636 0.027850",
+    "24 0.809952 0.294747 0.068970 0.030034",
+    "24 0.664952 0.108923 0.123803 0.029382",
+    "24 0.476370 0.014734 0.081205 0.029468",
+    "24 0.436748 0.191694 0.070656 0.031464",
+    "24 0.661905 0.371256 0.076740 0.028137",
+    "24 0.476494 0.583583 0.045661 0.099269"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/300117_1_jpg.rf.83e633af9fbd242143f4e24fcbd0e535.jpg": [
+    "10 0.304261 0.955442 0.148826 0.089117"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/300117_jpg.rf.f68f2e93a3e5dafb08b3248cff41d1de.jpg": [
+    "10 0.263654 0.392037 0.042202 0.078484",
+    "10 0.413123 0.439832 0.045603 0.059751",
+    "10 0.369190 0.706125 0.053779 0.065085"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/4853086777_bc41d29801_jpg.rf.540c652026c34e454d70c03d055fc6d3.jpg": [
+    "19 0.043530 0.239707 0.086961 0.332889"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/Bell-pepper-plant_JPG_jpg.rf.6b27484c81bdd3399e6fe98849ef9dd9.jpg": [
+    "3 0.920882 0.170211 0.156262 0.108291"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/Blackberry-black-raspberry-1024x707_jpg.rf.762db313acd8b29b62ed76fa1eee78b5.jpg": [
+    "14 0.132135 0.041101 0.102667 0.076762"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/Blackberry-black-raspberry3-1024x665_jpg.rf.99302f6615aab1d38d13b561bdd1a36f.jpg": [
+    "14 0.034100 0.116544 0.067009 0.231603"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/Cherry-Fruit-and-Leaves-tp1263_jpg.rf.29c8562522c943c22a73301581fd8afb.jpg": [
+    "6 0.054477 0.802708 0.108613 0.394585"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/IMG_2666_jpg.rf.641c1c5cb37a180d2002e57b9ac408e5.jpg": [
+    "27 0.202883 0.049496 0.405767 0.096967"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/IU-TYLCV_img_6_jpg.rf.1e66a300395d2e5a3dfb1e64f52947f6.jpg": [
+    "24 0.078901 0.706725 0.049791 0.044652",
+    "24 0.324949 0.419263 0.041803 0.086841",
+    "24 0.374109 0.920060 0.043304 0.057179",
+    "24 0.093239 0.799488 0.055324 0.045670"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/Leaf-Mold-upper-leaf-surface_jpg.rf.8efde3a1d775bd1556002a51f4ac5db5.jpg": [
+    "25 0.852807 0.348317 0.087770 0.154039",
+    "25 0.480568 0.281559 0.058983 0.080515"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/P1010703_JPG_jpg.rf.cb2cd030e0974a668d9c5d0c23cef67f.jpg": [
+    "10 0.366003 0.936988 0.045475 0.126024",
+    "10 0.150115 0.943262 0.054754 0.113476",
+    "10 0.129508 0.945242 0.052806 0.105673",
+    "10 0.083699 0.962739 0.052490 0.073578",
+    "10 0.232681 0.968554 0.055129 0.061938",
+    "10 0.451378 0.738597 0.036641 0.101561",
+    "10 0.366909 0.370214 0.057703 0.059974",
+    "10 0.101998 0.249044 0.049585 0.127382"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/Red-Blueberry-Leaves_jpg.rf.c38d7c6b465dd2716caeac4433605687.jpg": [
+    "5 0.979176 0.336478 0.041648 0.111999"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/Seminis-Turnpike-Bell-Pepper-1024x756_jpg.rf.40c73ab8df83559610ab67a5337bc503.jpg": [
+    "3 0.965075 0.351329 0.068065 0.106301",
+    "3 0.616994 0.924012 0.071725 0.140865",
+    "3 0.565794 0.254534 0.076943 0.138336"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/Tomato-20greenhouse-20phythotoxicity03F_JPG_jpg.rf.fc56872c39f88dd980514d0587efae95.jpg": [
+    "21 0.932846 0.231073 0.132469 0.242216"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/bacterialspot3_600px_jpg.rf.5e9276bd89498fc904beda34efaae202.jpg": [
+    "4 0.043582 0.656998 0.086680 0.171649"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/cucurbit-squash_powdery-mildew-2L_jpg.rf.a5994476d63a344e888bbc23d7fdbafc.jpg": [
+    "16 0.918366 0.512481 0.163269 0.373373"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/d-to-tylv-fo005-14496A31BE70553130A_jpg.rf.4606972c8b9ff71647f48a4026c5586b.jpg": [
+    "25 0.567172 0.972042 0.075887 0.055893",
+    "25 0.432882 0.946202 0.059754 0.107093",
+    "25 0.605622 0.347901 0.066628 0.082512",
+    "25 0.549893 0.523760 0.066968 0.115387",
+    "25 0.775166 0.669893 0.068101 0.119266",
+    "25 0.353010 0.841562 0.057850 0.070570",
+    "25 0.251880 0.808445 0.055385 0.091768",
+    "25 0.248428 0.459111 0.049079 0.074834",
+    "25 0.323470 0.346997 0.062813 0.084413"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/disease_jpg.rf.4e9575c8fdd5a12f2284cf608e5eaa88.jpg": [
+    "8 0.927218 0.483934 0.144634 0.964006"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/dsc00849_jpg.rf.c1a5ef9a5a2f5f79df6e9058a87c6e8e.jpg": [
+    "27 0.449617 0.833885 0.125220 0.113045",
+    "27 0.593825 0.707396 0.099869 0.087174"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/dscn3168_jpg.rf.43ac3fc0e43a4a2fb37dee468e8b92aa.jpg": [
+    "18 0.475464 0.461970 0.045806 0.126797",
+    "18 0.494262 0.511324 0.028044 0.111290"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/grapes-leaves_jpg.rf.ab2ef30876f8f524a53add1affc31041.jpg": [
+    "27 0.902447 0.922842 0.179169 0.152237"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/img_3088_jpg.rf.c24f90d821a5d731d434d2df907b634e.jpg": [
+    "6 0.201841 0.040907 0.335748 0.081764"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/img_6635_jpg.rf.fea38ee839fced9ae403ac318654174c.jpg": [
+    "20 0.476045 0.094382 0.075666 0.073107",
+    "20 0.678936 0.503345 0.111233 0.145634",
+    "20 0.402139 0.212513 0.072815 0.076787",
+    "20 0.103201 0.651039 0.063263 0.181569"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/latest_cb-20100719124603_jpg.rf.283f9b690af92514d9dd8e6deaf47273.jpg": [
+    "24 0.215497 0.159872 0.193922 0.319744"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/leaves_jpg.rf.6f2c341c055ccd3f059a9ec2494fe4b7.jpg": [
+    "3 0.093692 0.523524 0.187384 0.569794",
+    "3 0.944402 0.779339 0.110149 0.368878"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/p1020084s_jpg.rf.68e2f979e946f41b9a0044628d63b137.jpg": [
+    "22 0.117148 0.363093 0.169030 0.184522"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/peach_tree_20100523_jpg.rf.7d48edebce18e81454c87086a6ef4ff5.jpg": [
+    "10 0.057932 0.965305 0.043923 0.069389",
+    "10 0.301253 0.604253 0.037659 0.074148",
+    "10 0.687589 0.569189 0.080703 0.054907",
+    "10 0.782930 0.023683 0.099321 0.046584",
+    "10 0.277207 0.228843 0.057679 0.056088",
+    "10 0.269396 0.543685 0.062123 0.080660",
+    "10 0.318289 0.607300 0.068042 0.061570"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/pepper-leaves_JPG_jpg.rf.ade4a5a7ec951cd27f8e5e2cb416eb7b.jpg": [
+    "3 0.377972 0.955533 0.163264 0.088397"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/pepperplantwithbacterialspotimg3206_jpg.rf.3a013f583a69dbe723f524d3e8cb1d46.jpg": [
+    "4 0.746297 0.053055 0.469739 0.106110"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/potato_early-blight_05_zoom_jpg.rf.a350c47f95b1b937caf644443a17ce29.jpg": [
+    "12 0.951376 0.269965 0.049277 0.135948",
+    "12 0.578755 0.304189 0.055070 0.109511",
+    "12 0.845719 0.464530 0.074548 0.089269",
+    "12 0.332353 0.272305 0.069723 0.069881",
+    "12 0.030327 0.672598 0.060653 0.109613",
+    "12 0.057809 0.750248 0.101893 0.075587"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/soybean-potassium-deficiency-2_jpg.rf.5be8d76d618018823f2a66f5c40f9f66.jpg": [
+    "15 0.031566 0.070447 0.062169 0.140894",
+    "15 0.948129 0.871103 0.103742 0.181638",
+    "15 0.048578 0.348283 0.094453 0.047755",
+    "15 0.955077 0.748585 0.088579 0.122538",
+    "15 0.180357 0.948681 0.154463 0.102638",
+    "15 0.382684 0.038150 0.109244 0.074957",
+    "15 0.049235 0.621353 0.097590 0.239847",
+    "15 0.910890 0.023784 0.156671 0.047250",
+    "15 0.109619 0.853563 0.097904 0.123856",
+    "15 0.032569 0.793448 0.064058 0.164790",
+    "15 0.294733 0.139883 0.089056 0.069202",
+    "15 0.923519 0.952434 0.152563 0.094695",
+    "15 0.554227 0.915471 0.163493 0.166784",
+    "15 0.964768 0.271500 0.069955 0.229488"
+  ],
+  "/home/jokay_benedek/yolo/plant-disease-detection/dataset/train/images/tylcv1-_jpg.rf.bfa3c82db4e5fab3ad8d3d0c90284f7e.jpg": [
+    "24 0.407502 0.942976 0.147294 0.113776",
+    "24 0.954945 0.958674 0.090110 0.082558"
+  ]
+}

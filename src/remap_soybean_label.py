@@ -3,7 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 
-def remap_label_ids(labels_dir: Path, from_id: str = "16", to_id: str = "15") -> tuple[int, int]:
+def remap_label_ids(labels_dir: Path, removed_id: int = 16, merge_to_id: int = 15) -> tuple[int, int]:
     files_changed = 0
     labels_changed = 0
 
@@ -19,10 +19,21 @@ def remap_label_ids(labels_dir: Path, from_id: str = "16", to_id: str = "15") ->
                 continue
 
             parts = stripped.split()
-            if parts and parts[0] == from_id:
-                parts[0] = to_id
-                labels_changed += 1
-                file_changed = True
+            if parts:
+                try:
+                    class_id = int(parts[0])
+                except ValueError:
+                    updated_lines.append(line)
+                    continue
+
+                if class_id == removed_id:
+                    parts[0] = str(merge_to_id)
+                    labels_changed += 1
+                    file_changed = True
+                elif class_id > removed_id:
+                    parts[0] = str(class_id - 1)
+                    labels_changed += 1
+                    file_changed = True
 
             updated_lines.append(" ".join(parts))
 
