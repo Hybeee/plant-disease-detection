@@ -3,6 +3,36 @@ import torch
 
 from datetime import datetime
 import os
+import mlflow
+
+import configparser
+
+def get_databricks_host():
+    host = os.environ.get('DATABRICKS_HOST')
+    if host: return host
+    
+    cfg_path = os.path.expanduser("~/.databrickscfg")
+    if os.path.exists(cfg_path):
+        config = configparser.ConfigParser()
+        config.read(cfg_path)
+        if 'DEFAULT' in config:
+            return config['DEFAULT'].get('host')
+    return None
+
+host = get_databricks_host()
+if host:
+    os.environ['DATABRICKS_HOST'] = host 
+    mlflow.set_tracking_uri("databricks")
+    experiment_path = "/Users/wikingkongi@gmail.com/plantdoc"
+    os.environ['MLFLOW_EXPERIMENT_NAME'] = experiment_path
+    mlflow.set_experiment(experiment_path)
+    project_name = "runs_plantdoc"
+    print("Logging to Databricks...")
+else:
+    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    mlflow.set_experiment("local_plantdoc_train")
+    project_name = "runs/plantdoc"
+    print("Logging to local...")
 from pathlib import Path
 
 def main():
@@ -29,6 +59,7 @@ def main():
         device=device,
         patience=10,
         workers=4,
+        project=project_name,
         project=str(output_project_dir),
         name=run_name
     )
