@@ -212,3 +212,5 @@ model_weights
 runs
 yolo11n.pt 
 mlflow.db
+*.pt
+visualization/

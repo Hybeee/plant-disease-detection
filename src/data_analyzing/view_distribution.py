@@ -39,7 +39,9 @@ def plot_label_distribution(split, class_names, class_counts):
     plt.show()
 
 def main():
-    with open(os.path.join("dataset", "data.yaml")) as f:
+    dataset_name = "binary_dataset"
+
+    with open(os.path.join(dataset_name, "data.yaml")) as f:
         data_info = yaml.safe_load(f)
 
     class_names = np.array(data_info["names"])
@@ -47,7 +49,7 @@ def main():
 
     split = "train"
 
-    labels_dir = os.path.join("dataset", split, "labels")
+    labels_dir = os.path.join(dataset_name, split, "labels")
 
     for label_file in os.listdir(labels_dir):
         class_indices = get_class_indices(file_path=os.path.join(labels_dir, label_file))

@@ -33,10 +33,14 @@ else:
     mlflow.set_experiment("local_plantdoc_train")
     project_name = "runs/plantdoc"
     print("Logging to local...")
+from pathlib import Path
 
 def main():
     device = 'cuda' if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
+
+    repo_root = Path(__file__).resolve().parents[1]
+    output_project_dir = repo_root / "runs" / "plantdoc"
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     run_name = f'yolo11n_train_{timestamp}'
@@ -56,6 +60,7 @@ def main():
         patience=10,
         workers=4,
         project=project_name,
+        project=str(output_project_dir),
         name=run_name
     )
 
